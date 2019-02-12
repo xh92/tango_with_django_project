@@ -24,6 +24,8 @@ class Page(models.Model):
     views = models.IntegerField(default=0)
     likes = models.IntegerField(default=0)
 
+
+
     def __str__(self):  # For Python 2, use __unicode__ too
         return self.title
 
